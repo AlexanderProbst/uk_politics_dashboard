@@ -1,0 +1,10 @@
+---
+title: "UK Politics Dashboard"
+---
+
+Welcome! This site will visualise UK political data with reproducible R/Python code.
+
+- Constituency map (WPC 2024)
+- GE2024 results
+- MPs & votes
+- Petitions and polling trends

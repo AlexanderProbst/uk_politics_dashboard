@@ -1,0 +1,20 @@
+# Canonical endpoints & metadata (fill the URLs you plan to use)
+members_api:
+  url: "https://members-api.parliament.uk/api/Members/Search?House=Commons&IsCurrentMember=true"
+  notes: "Current MPs; join to constituencies by name/code. Provides Member IDs."
+
+commons_votes_api:
+  url: "https://commonsvotes-api.parliament.uk/data/divisions.json/search?house=Commons&page=1"
+  notes: "Division metadata; join per-MP votes using Member IDs."
+
+petitions_api_example:
+  url_pattern: "https://petition.parliament.uk/petitions/<PETITION_ID>.json"
+  notes: "Replace <PETITION_ID>; has constituency breakdowns."
+
+wpc_2024_geojson:
+  url: ""   # TODO: add ONS WPC 2024 GeoJSON/TopoJSON URL
+  notes: "Boundary geometry; use PCON24CD as key."
+
+yougov_tracker_csv:
+  url: ""   # TODO: add tracker CSV URL
+  notes: "GB vote intention time series."

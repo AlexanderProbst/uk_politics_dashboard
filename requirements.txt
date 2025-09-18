@@ -1,0 +1,3 @@
+requests
+pandas
+# geopandas  # uncomment if you plan to handle geospatial files locally

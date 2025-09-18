@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "UK Politics Dashboard"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: pages/constituency.qmd
+        text: Constituencies
+      - href: pages/mp.qmd
+        text: MPs
+      - href: pages/votes.qmd
+        text: Votes
+
+format:
+  html:
+    theme: cosmo
+    toc: true
